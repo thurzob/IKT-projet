@@ -10,17 +10,17 @@ a:link, a:hover, a:visited, a:active{
 #tabla{
     width: 980px;
     border: none;
-    margin: 0 auto;
+    margin: 0px auto;
     background-color: #509050;
-    padding: 0px;
+    
 }
 
 #tabla2{
     width: 940px;
-    margin: auto;
+    margin: 0px auto;
     border: none;
     background-color: white;
-    padding: 1px;
+    border-spacing: 0.5px;
 }
 
 .margo{
