@@ -26,3 +26,10 @@ a:link, a:hover, a:visited, a:active{
 .margo{
     margin: 0px;
 }
+
+#masodiksor{
+    height: 40px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
