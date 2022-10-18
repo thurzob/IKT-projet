@@ -33,3 +33,7 @@ a:link, a:hover, a:visited, a:active{
     color: white;
     text-align: center;
 }
+
+#gyomlalaskep{
+    float: right;
+}
