@@ -10,4 +10,21 @@ def feladat1():
         print("Ilyen válasz nincs, az előre megírt programban.")
     
     
-feladat1()
+#feladat1()
+
+
+#2. Feladat
+#Készíts egy programot, ami bekér egy számot a felhasználótól, majd kiírja, hogy a megadott szám páros-e vagy páratlan!
+def feladat2():
+ 
+    number=int(input("Kérem a számot! "))
+
+    if number%2==0:
+        print("a Szám páros szám")
+    elif number%2>0:
+        print("A szám páratlan")
+    else:
+        print(f"Nem jó értéket adtál meg.")
+       
+
+feladat2()
