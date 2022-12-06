@@ -95,4 +95,4 @@ def ciklus5():
             db=db+1
     
     
-ciklus5()
+ciklus5()   
