@@ -37,7 +37,6 @@ def feladat3():
 
 #Írj egy Python programot, amely bekér egy egész számot a felhasználótól és kiírja a képernyőre,
 #hogy osztható-e (igen/nem) a szám 3-mal vagy 5-tel!
-import random
 def feladat4():
     szam=int(input("Adjon meg egy számot! "))
     if(szam%3==0 and szam%5==0):
@@ -48,7 +47,44 @@ def feladat4():
         print("csak 3-mal osztható")
     elif(szam%3!=0 and szam%5==0):
         print("Csak 5-tel osztható")
+
+             
+#feladat4()
+
+#Írj egy Python programot, amely bekér három számot a felhasználótól és kiírja a képernyőre,
+#hogy a számok közül bármelyik kettőnek az összege egyenlő-e a harmadik számmal!
+def feladat5():
+    szam1=int(input("Add meg az első számot! "))
+    szam2=int(input("Add meg a második számot! "))
+    szam3=int(input("Add meg a harmadik számot! "))
+    if(szam1+szam2==szam3):
+        print("Az első és második szám összege egyenlő a harmadik számmal.")
+    elif(szam1+szam3==szam2):
+        print("Az első és harmadik szám összege egyenlő a második számmal.")
+    elif(szam2+szam3==szam1):
+        print("A második és harmadik szám összege egyenlő az első számmal")
+    else:
+        print("nincs két szám amelynek összege egyenlő lenne a harmadikkal")
         
-        
-        
-feladat4()
+    
+
+#feladat5()
+
+#Írj egy Python programot, amely bekér három egész számot a felhasználótól és kiírja a
+#képernyőre, hogy mind a három páros szám-e (igen/nem)!
+
+def feladat6():
+    tomb=[]
+    for szam in range(3):
+        szam=int(input("Adjon meg egy számot! "))
+        tomb.append(szam)
+    print(tomb)
+    for i in tomb:
+        if(i%2!=0):
+            print("Nem páros")
+        else:
+            print("Páros") 
+    if(i%2==0 and i%2!=0):
+        print("Vegyes")
+
+feladat6()
