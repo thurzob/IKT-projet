@@ -84,7 +84,17 @@ def feladat6():
             print("Nem páros")
         else:
             print("Páros") 
-    if(i%2==0 and i%2!=0):
-        print("Vegyes")
+#feladat6()
 
-feladat6()
+#Írj egy Python programot, amely bekér két szót (sztringet) a felhasználótól és ABC sorrendben
+#kiírja őket a képernyőre!
+def feladat7():
+    szavak=[]
+    for szo in range(2):
+        szo=input("Kérek egy szót! ")
+        szavak.append(szo)
+    szavak.sort()
+    print(szavak)
+
+
+feladat7()
