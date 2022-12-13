@@ -1,0 +1,40 @@
+body{
+    background-color: #9CEE59;
+    color: black;
+}
+
+a:link, a:hover, a:visited, a:active{
+    color: #999999;
+}
+
+#tabla{
+    width: 980px;
+    border: none;
+    margin: 0px auto;
+    background-color: #509050;
+    
+}
+
+#tabla2{
+    width: 940px;
+    margin: 0px auto;
+    border: 1px;
+    background-color: white;
+    border-spacing: 0.5px;
+}
+
+.margo{
+    margin: 0px;
+}
+
+#masodiksor{
+    height: 40px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+#gyomlalaskep{
+    float: right;
+}
+
